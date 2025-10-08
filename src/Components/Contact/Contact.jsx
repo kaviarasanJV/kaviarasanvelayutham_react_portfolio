@@ -33,13 +33,13 @@ const Contact = () => {
             <p>{`I'm currently avaliable to take on new project in new organization, so feel free to contact me anytime.`}</p>
             <div className="contact-details">
                 <div className="contact-detail">
-                    <img src={mail_icon} alt="" /> <p>{`kaviarasan202203@gmail.com`}</p>
+                    <img src={mail_icon} alt="" /> <p><b>{`kaviarasan202203@gmail.com`}</b></p>
                 </div>
                 <div className="contact-detail">
-                    <img src={call_icon} alt="" /> <p>{`9319342983`}</p>
+                    <img src={call_icon} alt="" /> <p><b>{`9319342983  /  9385501534`}</b></p>
                 </div>
                 <div className="contact-detail">
-                    <img src={location_icon} alt="" /> <p>{`Vellore, Tamilnadu`}</p>
+                    <img src={location_icon} alt="" /> <p><b>{`Vellore, Tamilnadu /  Bangaluru,Karnataka`}</b></p>
                 </div>
             </div>
         </div>

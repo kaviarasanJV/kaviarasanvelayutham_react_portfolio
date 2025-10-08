@@ -22,7 +22,6 @@ const Hero = () => {
         >
           {`My Resume / CV`}
         </a>
-        {/* <div className="hero-resume">{`My resume`}</div> */}
       </div>
     </div>
   )
