@@ -8,8 +8,21 @@ const Hero = () => {
       <h1><span>{`I'm J.V.KAVIARASAN,`}</span> {`FrontEnd & FullStack developer based in Tamilnadu, India.`}</h1>
       <p>{`I am a FrontEnd  & FullStack developer from Tamilnadu, India with 8 years of experience in multiple companies like CISCO, Wipro, CSC corps,Mastek,Synechron Technologies`}</p>
       <div className="hero-action">
-        <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>{`Connect with me`}</AnchorLink></div>
-        <div className="hero-resume">{`My resume`}</div>
+        <div className="hero-connect">
+          <AnchorLink className='anchor-link' offset={50} href='#contact'>
+          {`Connect with me`}
+          </AnchorLink>
+          </div>
+           <a 
+          href="/KAVIARASAN VELAYUTHAM RESUME.pdf" 
+          download 
+          className="hero-resume"
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          {`My Resume / CV`}
+        </a>
+        {/* <div className="hero-resume">{`My resume`}</div> */}
       </div>
     </div>
   )
