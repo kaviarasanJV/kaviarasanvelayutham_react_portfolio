@@ -3,7 +3,13 @@ import './MyWork.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 const Table = ({ data }) => {
   return (
-    <table border="1" cellPadding="10" cellSpacing="0">
+    <table border="1" cellPadding="10" cellSpacing="0"
+      style={{
+        color: 'black',
+        border: '2px solid #000',
+        borderCollapse: 'collapse',
+        color: 'black',
+      }}>
       <thead>
         <tr>
           <th>ID</th>

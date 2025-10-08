@@ -8,7 +8,7 @@ const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    formData.append("access_key", "xxxxxxxxxxxxxxxxxxxxxxxx");
+    formData.append("access_key", "62c1e492-5f77-47de-b2f6-43899a6a40d8");
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
     const res = await fetch("https://api.web3forms.com/submit", {
@@ -46,8 +46,13 @@ const Contact = () => {
         <form onSubmit={onSubmit} className="contact-right">
             <label htmlFor="">{`Your Name`}</label>
             <input type="text" placeholder='Enter your name' name='name' />
+
             <label htmlFor="">{`Your Email`}</label>
             <input type="email" placeholder='Enter your email' name='email' />
+
+            <label htmlFor="">{`Your Mobile`}</label>
+            <input type="mobile" placeholder='Enter your Mobile Number' name='mobile' />
+
             <label htmlFor="">{`Write your message here`}</label>
             <textarea name="message" rows="8" placeholder='Enter your message'></textarea>
             <button type='submit' className="contact-submit">{`Submit now`}</button>
